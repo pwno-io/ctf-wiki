@@ -2,27 +2,27 @@
 title: House of Lore
 url: /pwn/linux/user-mode/heap/ptmalloc2/house-of-lore
 tags:
-- arbitrary-allocation
-- bypass-fd-bk-check
-- code-execution
-- control-flow-hijack
-- fake-chunk
-- fake-chunk-fd-pointer-control
-- glibc-2.23
-- glibc-heap
-- heap
-- heap-exploitation
-- heap-overflow
-- house-of-lore
-- linked-list-corruption
-- memory-corruption
-- small-bin
-- small-bin-bk-pointer-control
-- stack-allocation
-- unsorted-bin-manipulation
-- use-after-free
-- write-primitive
-- write-what-where
+- desc:fake-chunk
+- desc:glibc-heap
+- desc:heap
+- desc:heap-exploitation
+- desc:house-of-lore
+- desc:linked-list-corruption
+- desc:small-bin
+- preq:bypass-fd-bk-check
+- preq:fake-chunk-fd-pointer-control
+- preq:glibc-2.23
+- preq:heap-overflow
+- preq:small-bin-bk-pointer-control
+- preq:unsorted-bin-manipulation
+- preq:use-after-free
+- preq:write-primitive
+- res:arbitrary-allocation
+- res:code-execution
+- res:control-flow-hijack
+- res:memory-corruption
+- res:stack-allocation
+- res:write-what-where
 ---
 # House of Lore
 

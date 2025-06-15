@@ -2,20 +2,21 @@
 title: Use After Free
 url: /pwn/linux/user-mode/heap/ptmalloc2/use-after-free
 tags:
-- arbitrary-code-execution
-- arbitrary-function-call
-- control-flow-hijack
-- controlled-content-write
-- controlled-heap-allocation
-- dangling-pointer
-- double-free
-- function-pointer-hijack
-- function-pointer-overwrite
-- heap
-- heap-overflow
-- memory-corruption
-- no-null-after-free
-- use-after-free
+- desc:dangling-pointer
+- desc:double-free
+- desc:heap
+- desc:memory-corruption
+- desc:use-after-free
+- preq:controlled-content-write
+- preq:controlled-heap-allocation
+- preq:dangling-pointer
+- preq:function-pointer-overwrite
+- preq:heap-overflow
+- preq:no-null-after-free
+- res:arbitrary-code-execution
+- res:arbitrary-function-call
+- res:control-flow-hijack
+- res:function-pointer-hijack
 ---
 # Use After Free
 

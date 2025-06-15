@@ -2,23 +2,23 @@
 title: 题目
 url: /pwn/linux/user-mode/race-condition/problem
 tags:
-- arbitrary-code-execution
-- bypass-security-checks
-- command-line-argument-control
-- file-size-check-bypass
-- file-system-access
-- file-system-race
-- function-redirection
-- race-condition
-- read-protected-files
-- stack-overflow
-- stack-overflow-exploitation
-- stack-overflow-vulnerability
-- symbolic-link-attack
-- symbolic-link-creation
-- time-of-check-time-of-use
-- timing-control
-- toctou
+- desc:file-system-race
+- desc:race-condition
+- desc:stack-overflow
+- desc:symbolic-link-attack
+- desc:time-of-check-time-of-use
+- desc:toctou
+- preq:command-line-argument-control
+- preq:file-size-check-bypass
+- preq:file-system-access
+- preq:stack-overflow-vulnerability
+- preq:symbolic-link-creation
+- preq:timing-control
+- res:arbitrary-code-execution
+- res:bypass-security-checks
+- res:function-redirection
+- res:read-protected-files
+- res:stack-overflow-exploitation
 ---
 # 题目
 

@@ -2,32 +2,32 @@
 title: prefetch side-channel attack
 url: /pwn/hardware/cpu/side-channel/prefetch
 tags:
-- address-translation-oracle
-- arm-prfm
-- armv8-a-cpu
-- cache-flush-capability
-- cache-timing
-- cpu-cache
-- intel-cpu
-- intel-prefetch
-- kaslr-bypass
-- kernel-address-leak
-- kernel-linear-mapping
-- kernel-memory-disclosure
-- kpti-bypass
-- page-offset-base-leak
-- physical-address-mapping
-- physical-memory-access
-- prefetch-attack
-- prefetch-instruction-access
-- side-channel
-- smap-bypass
-- speculative-execution
-- syscall-address-leak
-- timing-attack
-- timing-measurement
-- translation-oracle
-- user-space-execution
+- desc:address-translation-oracle
+- desc:arm-prfm
+- desc:cache-timing
+- desc:cpu-cache
+- desc:intel-prefetch
+- desc:prefetch-attack
+- desc:side-channel
+- desc:speculative-execution
+- desc:timing-attack
+- desc:translation-oracle
+- preq:armv8-a-cpu
+- preq:cache-flush-capability
+- preq:intel-cpu
+- preq:kernel-linear-mapping
+- preq:physical-memory-access
+- preq:prefetch-instruction-access
+- preq:timing-measurement
+- preq:user-space-execution
+- res:kaslr-bypass
+- res:kernel-address-leak
+- res:kernel-memory-disclosure
+- res:kpti-bypass
+- res:page-offset-base-leak
+- res:physical-address-mapping
+- res:smap-bypass
+- res:syscall-address-leak
 ---
 # prefetch side-channel attack
 

@@ -1,37 +1,36 @@
 ---
 title: Chromium Introduction
 tags:
-- blink-rendering-engine
-- browser
-- browser-exploitation
-- browser-internals
-- browser-process
-- c++-knowledge
-- chromium
-- chromium-source
-- cross-process-communication-abuse
-- css-parsing
-- cssom-tree
-- dom-manipulation
-- dom-tree
-- html-parsing
-- introduction
-- ipc-understanding
-- javascript-engine-exploitation
-- javascript-engine-internals
-- javascript-parsing
-- mojo-ipc
-- mojo-ipc-framework
-- multi-process-architecture
-- multi-process-debugging
-- render-process
-- render-tree
-- renderer-process-compromise
-- rendering-pipeline-attacks
-- rendering-pipeline-understanding
-- sandbox-escape
-- v8-javascript-engine
-- web-standards-knowledge
+- desc:blink-rendering-engine
+- desc:browser
+- desc:browser-internals
+- desc:browser-process
+- desc:chromium
+- desc:css-parsing
+- desc:cssom-tree
+- desc:dom-tree
+- desc:html-parsing
+- desc:javascript-parsing
+- desc:mojo-ipc
+- desc:multi-process-architecture
+- desc:render-process
+- desc:render-tree
+- desc:v8-javascript-engine
+- preq:c++-knowledge
+- preq:chromium-source
+- preq:ipc-understanding
+- preq:javascript-engine-internals
+- preq:mojo-ipc-framework
+- preq:multi-process-debugging
+- preq:rendering-pipeline-understanding
+- preq:web-standards-knowledge
+- res:browser-exploitation
+- res:cross-process-communication-abuse
+- res:dom-manipulation
+- res:javascript-engine-exploitation
+- res:renderer-process-compromise
+- res:rendering-pipeline-attacks
+- res:sandbox-escape
 url: /docs/pwn/browser/chrome/introduction
 ---
 

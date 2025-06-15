@@ -93,33 +93,25 @@ def apply_tags_to_file(file_path: Path, tags: Dict[str, List[str]], backup: bool
         if 'url' not in existing_frontmatter:
             existing_frontmatter['url'] = create_url_from_path(file_path)
         
-        # Merge tags - combine all tag types without prefixes
+        # Merge tags - combine all tag types WITH prefixes (desc:, preq:, res:)
         all_tags = []
         for tag in tags.get('description_tags', []):
-            # Remove desc: prefix
-            clean_tag = tag.replace('desc:', '')
-            if clean_tag not in all_tags:
-                all_tags.append(clean_tag)
+            # Keep desc: prefix
+            if tag not in all_tags:
+                all_tags.append(tag)
         
         for tag in tags.get('prerequisite_tags', []):
-            # Remove preq: prefix
-            clean_tag = tag.replace('preq:', '')
-            if clean_tag not in all_tags:
-                all_tags.append(clean_tag)
+            # Keep preq: prefix
+            if tag not in all_tags:
+                all_tags.append(tag)
         
         for tag in tags.get('result_tags', []):
-            # Remove res: prefix
-            clean_tag = tag.replace('res:', '')
-            if clean_tag not in all_tags:
-                all_tags.append(clean_tag)
+            # Keep res: prefix
+            if tag not in all_tags:
+                all_tags.append(tag)
         
-        # Add existing tags if any
-        if 'tags' in existing_frontmatter:
-            existing_tags = existing_frontmatter['tags']
-            if isinstance(existing_tags, list):
-                for tag in existing_tags:
-                    if tag not in all_tags:
-                        all_tags.append(tag)
+        # Don't add existing tags - we're replacing them
+        # This ensures we start fresh with the new extracted tags
         
         existing_frontmatter['tags'] = sorted(all_tags)
         
@@ -186,6 +178,7 @@ def main():
     print(f"Failed: {failed} files")
     print("\nBackup files created with .bak extension")
     print("\nYour markdown files now have library-mcp compatible frontmatter!")
+    print("Tags include prefixes (desc:, preq:, res:) to indicate their type.")
     
     # Show a sample
     if successful > 0:

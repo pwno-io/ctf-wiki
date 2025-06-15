@@ -2,31 +2,32 @@
 title: shell 获取小结
 url: /pwn/linux/user-mode/summary/get-shell
 tags:
-- alphanumeric-shellcode
-- arbitrary-command-execution
-- bin-sh-string
-- bind-shell
-- command-execution
-- execve-execution
-- execve-syscall-number
-- ia32-syscall-11
-- interactive-shell
-- libc-base
-- mprotect-function
-- one-gadget
-- printable-shellcode
-- remote-shell
-- remote-shell-binding
-- shell-acquisition
-- shell-execution
-- shellcode-execution
-- syscall-exploitation
-- syscall-instruction
-- system-address
-- system-execution
-- system-shell
-- writable-executable-memory
-- x64-syscall-59
+- desc:bind-shell
+- desc:execve-execution
+- desc:interactive-shell
+- desc:remote-shell
+- desc:shell-acquisition
+- desc:shellcode-execution
+- desc:syscall-exploitation
+- desc:system-execution
+- preq:alphanumeric-shellcode
+- preq:bin-sh-string
+- preq:execve-syscall-number
+- preq:ia32-syscall-11
+- preq:libc-base
+- preq:mprotect-function
+- preq:one-gadget
+- preq:printable-shellcode
+- preq:syscall-instruction
+- preq:system-address
+- preq:writable-executable-memory
+- preq:x64-syscall-59
+- res:arbitrary-command-execution
+- res:command-execution
+- res:interactive-shell
+- res:remote-shell-binding
+- res:shell-execution
+- res:system-shell
 ---
 # shell 获取小结
 

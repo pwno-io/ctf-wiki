@@ -2,20 +2,20 @@
 title: Type Confusion
 url: /pwn/linux/user-mode/type-confusion/readme
 tags:
-- arbitrary-read
-- arbitrary-write
-- code-execution
-- memory-corruption
-- memory-layout-knowledge
-- object-allocation-control
-- object-pointer-control
-- object-property-manipulation
-- object-type-mismatch
-- type-casting-primitive
-- type-casting-vulnerability
-- type-confusion
-- type-safety-violation
-- type-system-bypass
-- vtable-hijacking
+- desc:memory-corruption
+- desc:object-type-mismatch
+- desc:type-casting-vulnerability
+- desc:type-confusion
+- desc:type-safety-violation
+- preq:memory-layout-knowledge
+- preq:object-allocation-control
+- preq:object-pointer-control
+- preq:type-casting-primitive
+- preq:type-system-bypass
+- res:arbitrary-read
+- res:arbitrary-write
+- res:code-execution
+- res:object-property-manipulation
+- res:vtable-hijacking
 ---
 # Type Confusion

@@ -2,20 +2,20 @@
 title: 原理介绍
 url: /pwn/linux/user-mode/fmtstr/fmtstr-intro
 tags:
-- arbitrary-read
-- arbitrary-write
-- format-string
-- information-disclosure
-- memory-leak
-- no-format-string-validation
-- printf-family
-- printf-scanf-functions
-- program-crash
-- stack-access
-- stack-based
-- stack-content-leak
-- user-controlled-format-string
-- variadic-function
+- desc:format-string
+- desc:printf-family
+- desc:stack-based
+- desc:variadic-function
+- preq:no-format-string-validation
+- preq:printf-scanf-functions
+- preq:stack-access
+- preq:user-controlled-format-string
+- res:arbitrary-read
+- res:arbitrary-write
+- res:information-disclosure
+- res:memory-leak
+- res:program-crash
+- res:stack-content-leak
 ---
 # 原理介绍
 

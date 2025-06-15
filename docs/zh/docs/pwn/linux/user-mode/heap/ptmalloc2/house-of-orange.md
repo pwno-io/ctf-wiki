@@ -2,27 +2,27 @@
 title: House of Orange
 url: /pwn/linux/user-mode/heap/ptmalloc2/house-of-orange
 tags:
-- allocation-size-control
-- arbitrary-allocation
-- brk-heap-expansion
-- free-without-free
-- heap
-- heap-expansion
-- heap-overflow
-- house-of-orange
-- libc-address-leak
-- no-free-exploitation
-- no-free-function
-- page-aligned-size
-- prev-inuse-bit-set
-- size-greater-than-minsize
-- size-less-than-mmap-threshold
-- size-less-than-request
-- sysmalloc
-- top-chunk-manipulation
-- top-chunk-size-overwrite
-- unsorted-bin
-- unsorted-bin-chunk
+- desc:brk-heap-expansion
+- desc:heap
+- desc:house-of-orange
+- desc:no-free-exploitation
+- desc:sysmalloc
+- desc:top-chunk-manipulation
+- desc:unsorted-bin
+- preq:allocation-size-control
+- preq:heap-overflow
+- preq:no-free-function
+- preq:page-aligned-size
+- preq:prev-inuse-bit-set
+- preq:size-greater-than-minsize
+- preq:size-less-than-mmap-threshold
+- preq:size-less-than-request
+- preq:top-chunk-size-overwrite
+- res:arbitrary-allocation
+- res:free-without-free
+- res:heap-expansion
+- res:libc-address-leak
+- res:unsorted-bin-chunk
 ---
 # House of Orange
 

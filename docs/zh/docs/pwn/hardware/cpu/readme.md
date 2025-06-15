@@ -2,13 +2,13 @@
 title: 简介
 url: /pwn/hardware/cpu/readme
 tags:
-- cpu-architecture-knowledge
-- cpu-control
-- cpu-exploitation
-- cpu-pwn
-- low-level-access
-- processor-exploitation
-- processor-level-exploitation
+- desc:cpu-exploitation
+- desc:cpu-pwn
+- desc:processor-level-exploitation
+- preq:cpu-architecture-knowledge
+- preq:low-level-access
+- res:cpu-control
+- res:processor-exploitation
 ---
 # 简介
 

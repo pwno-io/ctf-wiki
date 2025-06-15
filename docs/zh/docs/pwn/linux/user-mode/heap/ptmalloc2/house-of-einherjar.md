@@ -2,24 +2,26 @@
 title: House Of Einherjar
 url: /pwn/linux/user-mode/heap/ptmalloc2/house-of-einherjar
 tags:
-- arbitrary-chunk-allocation
-- backward-consolidation
-- chunk-overlap
-- control-flow-hijack
-- fake-chunk
-- fake-chunk-construction
-- heap
-- heap-address-leak
-- heap-overflow
-- house-of-einherjar
-- off-by-one
-- prev-inuse-bit-control
-- prev-size-control
-- prev-size-manipulation
-- shell-execution
-- unlink-bypass
-- use-after-free
-- write-what-where
+- desc:backward-consolidation
+- desc:chunk-overlap
+- desc:fake-chunk
+- desc:heap
+- desc:house-of-einherjar
+- desc:off-by-one
+- desc:prev-size-manipulation
+- preq:fake-chunk-construction
+- preq:heap-address-leak
+- preq:heap-overflow
+- preq:off-by-one
+- preq:prev-inuse-bit-control
+- preq:prev-size-control
+- preq:unlink-bypass
+- preq:use-after-free
+- res:arbitrary-chunk-allocation
+- res:chunk-overlap
+- res:control-flow-hijack
+- res:shell-execution
+- res:write-what-where
 ---
 #  House Of Einherjar
 

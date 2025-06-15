@@ -2,15 +2,15 @@
 title: 检测
 url: /pwn/linux/user-mode/fmtstr/fmtstr-detect
 tags:
-- automated-analysis
-- automated-detection
-- binary-access
-- binary-analysis
-- ida-plugin
-- ida-pro
-- lazyida-plugin
-- vulnerability-detection
-- vulnerability-identification
+- desc:automated-detection
+- desc:binary-analysis
+- desc:ida-plugin
+- desc:vulnerability-detection
+- preq:binary-access
+- preq:ida-pro
+- preq:lazyida-plugin
+- res:automated-analysis
+- res:vulnerability-identification
 ---
 # 检测
 

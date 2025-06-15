@@ -2,24 +2,24 @@
 title: 栈介绍
 url: /pwn/linux/user-mode/stackoverflow/x86/stack-intro
 tags:
-- address-space-layout
-- assembly-knowledge
-- calling-convention
-- function-call-stack
-- function-parameter-control
-- local-variable-access
-- register-control
-- register-knowledge
-- return-address-control
-- stack
-- stack-frame
-- stack-manipulation
-- stack-understanding
-- system-v-amd64-abi
-- x64-architecture
-- x64-calling-convention
-- x86-architecture
-- x86-calling-convention
+- desc:calling-convention
+- desc:function-call-stack
+- desc:stack
+- desc:stack-frame
+- desc:system-v-amd64-abi
+- desc:x64-architecture
+- desc:x86-architecture
+- preq:address-space-layout
+- preq:assembly-knowledge
+- preq:register-knowledge
+- preq:stack-understanding
+- preq:x64-calling-convention
+- preq:x86-calling-convention
+- res:function-parameter-control
+- res:local-variable-access
+- res:register-control
+- res:return-address-control
+- res:stack-manipulation
 ---
 # 栈介绍
 

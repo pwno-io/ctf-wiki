@@ -1,0 +1,34 @@
+---
+url: /pwn/linux/user-mode/heap/mallocng/readme
+tags:
+- arbitrary-allocation-size
+- arbitrary-write
+- desc:glibc-malloc-exploitation
+- desc:heap-based-vulnerability
+- desc:heap-exploitation
+- desc:house-of-force
+- desc:house-of-xxx
+- desc:top-chunk-manipulation
+- glibc-malloc-exploitation
+- heap-allocation-control
+- heap-based-vulnerability
+- heap-control
+- heap-exploitation
+- heap-overflow
+- house-of-force
+- house-of-xxx
+- memory-corruption
+- preq:arbitrary-allocation-size
+- preq:heap-allocation-control
+- preq:heap-overflow
+- preq:top-chunk-header-manipulation
+- preq:top-chunk-size-control
+- res:arbitrary-write
+- res:heap-control
+- res:memory-corruption
+- res:write-what-where
+- top-chunk-header-manipulation
+- top-chunk-manipulation
+- top-chunk-size-control
+- write-what-where
+---

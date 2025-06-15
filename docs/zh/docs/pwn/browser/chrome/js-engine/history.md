@@ -2,29 +2,29 @@
 title: V8 Design History
 url: /pwn/browser/chrome/js-engine/history
 tags:
-- ast-compilation
-- bytecode-generation
-- bytecode-interpretation-knowledge
-- compiler-architecture-knowledge
-- compiler-pipeline
-- compiler-pipeline-knowledge
-- crankshaft-compiler
-- deoptimization
-- full-code-generation
-- ignition-interpreter
-- interpreter
-- interpreter-vs-compiler
-- javascript-ast-understanding
-- javascript-engine
-- jit-compilation-concepts
-- jit-compiler
-- jit-optimization-understanding
-- optimization-pipeline-understanding
-- turbofan-optimizer
-- understand-v8-evolution
-- v8-architecture-comprehension
-- v8-engine
-- v8-version-history
+- desc:ast-compilation
+- desc:bytecode-generation
+- desc:compiler-pipeline
+- desc:crankshaft-compiler
+- desc:deoptimization
+- desc:full-code-generation
+- desc:ignition-interpreter
+- desc:interpreter
+- desc:javascript-engine
+- desc:jit-compiler
+- desc:turbofan-optimizer
+- desc:v8-engine
+- preq:compiler-architecture-knowledge
+- preq:interpreter-vs-compiler
+- preq:javascript-ast-understanding
+- preq:jit-compilation-concepts
+- preq:optimization-pipeline-understanding
+- preq:v8-version-history
+- res:bytecode-interpretation-knowledge
+- res:compiler-pipeline-knowledge
+- res:jit-optimization-understanding
+- res:understand-v8-evolution
+- res:v8-architecture-comprehension
 ---
 # V8 Design History
 

@@ -2,16 +2,16 @@
 title: 环境搭建
 url: /pwn/linux/user-mode/stackoverflow/arm/environment
 tags:
-- ctf-analysis-environment
-- ctf-tools
-- ctf-tools-framework
-- environment-setup
-- qemu
-- qemu-based-testing
-- qemu-installation
-- virtualization
-- virtualization-support
-- virtualized-environment
+- desc:ctf-tools
+- desc:environment-setup
+- desc:qemu
+- desc:virtualization
+- preq:ctf-tools-framework
+- preq:qemu-installation
+- preq:virtualization-support
+- res:ctf-analysis-environment
+- res:qemu-based-testing
+- res:virtualized-environment
 ---
 # 环境搭建 
 

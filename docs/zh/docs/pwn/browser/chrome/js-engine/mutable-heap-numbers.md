@@ -2,26 +2,26 @@
 title: Mutable Heap Numbers
 url: /pwn/browser/chrome/js-engine/mutable-heap-numbers
 tags:
-- elimination-heap-allocation
-- faster-arithmetic-operations
-- heap-number-allocation
-- heap-number-manipulation
-- in-place-updates
-- int32-range-values
-- integer-operation-optimization
-- memory-optimization
-- mutable-heap-numbers
-- performance-improvement
-- performance-optimization
-- reduced-memory-overhead
-- script-context
-- script-context-access
-- slot-type-tracking
-- stable-variable-types
-- type-stability
-- type-tracking-capability
-- v8-engine
-- v8-optimization
+- desc:heap-number-allocation
+- desc:memory-optimization
+- desc:mutable-heap-numbers
+- desc:performance-optimization
+- desc:script-context
+- desc:slot-type-tracking
+- desc:type-stability
+- desc:v8-optimization
+- preq:heap-number-manipulation
+- preq:int32-range-values
+- preq:script-context-access
+- preq:stable-variable-types
+- preq:type-tracking-capability
+- preq:v8-engine
+- res:elimination-heap-allocation
+- res:faster-arithmetic-operations
+- res:in-place-updates
+- res:integer-operation-optimization
+- res:performance-improvement
+- res:reduced-memory-overhead
 ---
 # Mutable Heap Numbers
 

@@ -2,24 +2,24 @@
 title: tcache
 url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/tcache
 tags:
-- arbitrary-chunk-allocation
-- chunk-size-control
-- double-free
-- fast-allocation
-- glibc-heap
-- glibc>=2.26
-- heap
-- heap-control
-- heap-exploitation
-- memory-management
-- performance-optimization
-- security-bypass
-- tcache
-- tcache-entry-manipulation
-- thread-local-access
-- thread-local-cache
-- ubuntu>=17.10
-- use-after-free
+- desc:glibc-heap
+- desc:heap
+- desc:memory-management
+- desc:performance-optimization
+- desc:tcache
+- desc:thread-local-cache
+- preq:chunk-size-control
+- preq:glibc>=2.26
+- preq:heap-control
+- preq:tcache-entry-manipulation
+- preq:thread-local-access
+- preq:ubuntu>=17.10
+- res:arbitrary-chunk-allocation
+- res:double-free
+- res:fast-allocation
+- res:heap-exploitation
+- res:security-bypass
+- res:use-after-free
 ---
 # tcache
 

@@ -2,28 +2,28 @@
 title: House Of Force
 url: /pwn/linux/user-mode/heap/ptmalloc2/house-of-force
 tags:
-- <glibc2.24
-- arbitrary-address-write
-- arbitrary-malloc-size
-- arbitrary-write
-- code-execution
-- control-flow-hijack
-- glibc-malloc
-- got-overwrite
-- heap-exploitation
-- heap-overflow
-- house-of-force
-- malloc-hook-overwrite
-- malloc-maleficarum
-- malloc-size-control
-- negative-size-bypass
-- request-out-of-range-check
-- top-chunk-manipulation
-- top-chunk-relocation
-- top-chunk-size-control
-- unsigned-comparison
-- write-anything-anywhere
-- write-what-where
+- desc:arbitrary-address-write
+- desc:glibc-malloc
+- desc:heap-exploitation
+- desc:house-of-force
+- desc:malloc-maleficarum
+- desc:top-chunk-manipulation
+- desc:write-anything-anywhere
+- preq:<glibc2.24
+- preq:arbitrary-malloc-size
+- preq:heap-overflow
+- preq:malloc-size-control
+- preq:negative-size-bypass
+- preq:request-out-of-range-check
+- preq:top-chunk-size-control
+- preq:unsigned-comparison
+- res:arbitrary-write
+- res:code-execution
+- res:control-flow-hijack
+- res:got-overwrite
+- res:malloc-hook-overwrite
+- res:top-chunk-relocation
+- res:write-what-where
 ---
 # House Of Force
 

@@ -2,15 +2,15 @@
 title: 深入理解堆的实现
 url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/overview
 tags:
-- heap
-- heap-fundamentals
-- heap-implementation
-- heap-implementation-knowledge
-- heap-internals-knowledge
-- memory-allocation-concepts
-- memory-management
-- system-programming
-- understand-heap-operations
+- desc:heap
+- desc:heap-fundamentals
+- desc:heap-implementation
+- desc:memory-management
+- preq:heap-internals-knowledge
+- preq:memory-allocation-concepts
+- preq:system-programming
+- res:heap-implementation-knowledge
+- res:understand-heap-operations
 ---
 # 深入理解堆的实现
 

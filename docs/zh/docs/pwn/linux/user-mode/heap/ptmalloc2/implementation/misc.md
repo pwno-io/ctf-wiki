@@ -2,16 +2,16 @@
 title: 测试支持
 url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/misc
 tags:
-- debug-environment
-- glibc-malloc-testing
-- glibc-source-access
-- heap-corruption-testing
-- heap-debugging
-- memory-pattern-detection
-- memory-perturbation
-- perturb-byte
-- perturb-byte-control
-- use-after-free-detection
+- desc:glibc-malloc-testing
+- desc:heap-debugging
+- desc:memory-perturbation
+- desc:perturb-byte
+- preq:debug-environment
+- preq:glibc-source-access
+- preq:perturb-byte-control
+- res:heap-corruption-testing
+- res:memory-pattern-detection
+- res:use-after-free-detection
 ---
 # 测试支持
 

@@ -2,25 +2,25 @@
 title: 整数溢出
 url: /pwn/linux/user-mode/integeroverflow/introduction
 tags:
-- arbitrary-length-read
-- arithmetic-operations
-- boundary-overflow
-- buffer-overflow
-- bypass-length-check
-- heap-overflow
-- integer-overflow
-- integer-truncation
-- malloc-size-control
-- memory-corruption
-- negative-to-large-positive
-- read-length-control
-- signed-integer
-- signed-unsigned-mismatch
-- type-casting
-- type-confusion
-- type-conversion
-- unsigned-integer
-- user-controlled-input
+- desc:boundary-overflow
+- desc:integer-overflow
+- desc:integer-truncation
+- desc:signed-unsigned-mismatch
+- desc:type-casting
+- desc:type-confusion
+- preq:arithmetic-operations
+- preq:malloc-size-control
+- preq:read-length-control
+- preq:signed-integer
+- preq:type-conversion
+- preq:unsigned-integer
+- preq:user-controlled-input
+- res:arbitrary-length-read
+- res:buffer-overflow
+- res:bypass-length-check
+- res:heap-overflow
+- res:memory-corruption
+- res:negative-to-large-positive
 ---
 # 整数溢出
 

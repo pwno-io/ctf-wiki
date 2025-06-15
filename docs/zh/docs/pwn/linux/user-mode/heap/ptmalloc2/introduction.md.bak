@@ -1,3 +1,32 @@
+---
+title: 堆利用
+url: /pwn/linux/user-mode/heap/ptmalloc2/introduction
+tags:
+- arbitrary-memory-control
+- data-structure-understanding
+- desc:dynamic-memory-allocation
+- desc:glibc-heap
+- desc:heap
+- desc:heap-exploitation
+- desc:ptmalloc2
+- dynamic-memory-allocation
+- glibc
+- glibc-heap
+- heap
+- heap-exploitation
+- heap-internals-knowledge
+- heap-manipulation
+- memory-allocation-primitives
+- memory-corruption
+- preq:data-structure-understanding
+- preq:glibc
+- preq:heap-internals-knowledge
+- preq:memory-allocation-primitives
+- ptmalloc2
+- res:arbitrary-memory-control
+- res:heap-manipulation
+- res:memory-corruption
+---
 # 堆利用
 
 在该章节中，我们会按照如下的步骤进行介绍

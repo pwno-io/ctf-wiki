@@ -1,2 +1,49 @@
+---
+title: 可信执行环境
+url: /pwn/hardware/trusted-computing/tee
+tags:
+- arm-trustzone
+- bypass-normal-world
+- desc:hardware-security
+- desc:isolated-execution
+- desc:secure-enclave
+- desc:secure-world
+- desc:tee
+- desc:trusted-execution-environment
+- desc:trustzone
+- hardware-security
+- intel-sgx
+- isolated-code-execution
+- isolated-execution
+- preq:arm-trustzone
+- preq:intel-sgx
+- preq:privileged-access
+- preq:secure-boot
+- preq:secure-monitor
+- preq:tee-hardware
+- preq:trusted-os
+- privilege-escalation
+- privileged-access
+- protected-memory-access
+- res:bypass-normal-world
+- res:isolated-code-execution
+- res:privilege-escalation
+- res:protected-memory-access
+- res:secure-computation
+- res:secure-key-storage
+- res:tee-compromise
+- secure-boot
+- secure-computation
+- secure-enclave
+- secure-key-storage
+- secure-monitor
+- secure-world
+- tee
+- tee-compromise
+- tee-hardware
+- trusted-execution-environment
+- trusted-os
+- trustzone
+---
 # 可信执行环境
 

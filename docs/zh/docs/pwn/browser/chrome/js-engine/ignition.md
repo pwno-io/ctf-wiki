@@ -2,22 +2,23 @@
 title: Ignition Interpreter
 url: /pwn/browser/chrome/js-engine/ignition
 tags:
-- ast-to-bytecode
-- bytecode-execution
-- bytecode-generation
-- bytecode-interpretation
-- dead-code-elimination
-- faster-translation
-- ignition-interpreter
-- javascript-interpreter
-- javascript-runtime
-- memory-optimization
-- parser-ast
-- register-machine
-- register-optimization
-- script-streamer-thread
-- simplified-compilation
-- v8-engine
+- desc:ast-to-bytecode
+- desc:bytecode-execution
+- desc:ignition-interpreter
+- desc:javascript-interpreter
+- desc:register-machine
+- desc:v8-engine
+- preq:bytecode-generation
+- preq:javascript-runtime
+- preq:parser-ast
+- preq:script-streamer-thread
+- preq:v8-engine
+- res:bytecode-interpretation
+- res:dead-code-elimination
+- res:faster-translation
+- res:memory-optimization
+- res:register-optimization
+- res:simplified-compilation
 ---
 # Ignition Interpreter
 

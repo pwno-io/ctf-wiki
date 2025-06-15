@@ -2,18 +2,18 @@
 title: 堆初始化
 url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/heap-init
 tags:
-- first-allocation
-- first-memory-request
-- heap-initialization
-- heap-initialized
-- heap-ready
-- heap-setup
-- heap-uninitialized
-- malloc-consolidate
-- malloc-init-state
-- malloc-state
-- malloc-state-setup
-- user-allocation
+- desc:first-allocation
+- desc:heap-initialization
+- desc:heap-setup
+- desc:malloc-consolidate
+- desc:malloc-init-state
+- desc:malloc-state
+- preq:first-memory-request
+- preq:heap-uninitialized
+- preq:user-allocation
+- res:heap-initialized
+- res:heap-ready
+- res:malloc-state-setup
 ---
 # 堆初始化
 

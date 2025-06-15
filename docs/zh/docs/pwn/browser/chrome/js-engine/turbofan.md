@@ -2,21 +2,21 @@
 title: TurboFan JIT Compiler
 url: /pwn/browser/chrome/js-engine/turbofan
 tags:
-- architecture-specific-code
-- bytecode-compilation
-- bytecode-input
-- hot-code-detection
-- ignition-interpreter
-- javascript-optimization
-- jit-compiled-output
-- jit-compiler
-- machine-code-generation
-- optimized-machine-code
-- performance-improvement
-- repeated-execution-trigger
-- turbofan
-- v8-engine
-- v8-javascript-engine
+- desc:bytecode-compilation
+- desc:javascript-optimization
+- desc:jit-compiler
+- desc:machine-code-generation
+- desc:turbofan
+- desc:v8-engine
+- preq:bytecode-input
+- preq:hot-code-detection
+- preq:ignition-interpreter
+- preq:repeated-execution-trigger
+- preq:v8-javascript-engine
+- res:architecture-specific-code
+- res:jit-compiled-output
+- res:optimized-machine-code
+- res:performance-improvement
 ---
 # TurboFan JIT Compiler
 

@@ -2,36 +2,36 @@
 title: Race Condition
 url: /pwn/linux/user-mode/race-condition/introduction
 tags:
-- arbitrary-code-execution
-- arbitrary-write
-- concurrency
-- concurrent-execution
-- deadlock
-- denial-of-service
-- double-free
-- file-system-access
-- file-system-race
-- incorrect-file-access
-- link-following-race
-- logic-bypass
-- multi-threaded-environment
-- multi-threading
-- non-reentrant-functions
-- object-state-modification
-- privilege-escalation
-- program-crash
-- race-condition
-- shared-memory
-- shared-object-access
-- signal-handler
-- signal-handler-race
-- switch-race-condition
-- switch-variable-access
-- symbolic-link-manipulation
-- time-of-check-time-of-use
-- time-window-exploitation
-- toctou
-- use-after-free
+- desc:concurrency
+- desc:deadlock
+- desc:file-system-race
+- desc:link-following-race
+- desc:multi-threading
+- desc:race-condition
+- desc:shared-memory
+- desc:signal-handler-race
+- desc:switch-race-condition
+- desc:time-of-check-time-of-use
+- desc:toctou
+- preq:concurrent-execution
+- preq:file-system-access
+- preq:multi-threaded-environment
+- preq:non-reentrant-functions
+- preq:object-state-modification
+- preq:shared-object-access
+- preq:signal-handler
+- preq:switch-variable-access
+- preq:symbolic-link-manipulation
+- preq:time-window-exploitation
+- res:arbitrary-code-execution
+- res:arbitrary-write
+- res:denial-of-service
+- res:double-free
+- res:incorrect-file-access
+- res:logic-bypass
+- res:privilege-escalation
+- res:program-crash
+- res:use-after-free
 ---
 # Race Condition
 

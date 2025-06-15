@@ -2,18 +2,18 @@
 title: 堆利用
 url: /pwn/linux/user-mode/heap/ptmalloc2/introduction
 tags:
-- arbitrary-memory-control
-- data-structure-understanding
-- dynamic-memory-allocation
-- glibc
-- glibc-heap
-- heap
-- heap-exploitation
-- heap-internals-knowledge
-- heap-manipulation
-- memory-allocation-primitives
-- memory-corruption
-- ptmalloc2
+- desc:dynamic-memory-allocation
+- desc:glibc-heap
+- desc:heap
+- desc:heap-exploitation
+- desc:ptmalloc2
+- preq:data-structure-understanding
+- preq:glibc
+- preq:heap-internals-knowledge
+- preq:memory-allocation-primitives
+- res:arbitrary-memory-control
+- res:heap-manipulation
+- res:memory-corruption
 ---
 # 堆利用
 

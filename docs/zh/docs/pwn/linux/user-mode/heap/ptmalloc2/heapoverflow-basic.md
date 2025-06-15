@@ -2,25 +2,25 @@
 title: 堆溢出
 url: /pwn/linux/user-mode/heap/ptmalloc2/heapoverflow-basic
 tags:
-- adjacent-chunk-corruption
-- arbitrary-write
-- buffer-overflow
-- chunk-metadata-overwrite
-- control-execution-flow
-- corrupt-chunk-flags
-- corrupt-prev-size
-- corrupt-size-field
-- dangerous-functions
-- gets-scanf-strcpy
-- heap-corruption
-- heap-overflow
-- heap-write-primitive
-- malloc-calloc-realloc
-- overwrite-chunk-header
-- physical-adjacency
-- program-crash
-- uncontrolled-input-size
-- write-anything-anywhere
+- desc:adjacent-chunk-corruption
+- desc:buffer-overflow
+- desc:chunk-metadata-overwrite
+- desc:heap-corruption
+- desc:heap-overflow
+- preq:dangerous-functions
+- preq:gets-scanf-strcpy
+- preq:heap-write-primitive
+- preq:malloc-calloc-realloc
+- preq:physical-adjacency
+- preq:uncontrolled-input-size
+- res:arbitrary-write
+- res:control-execution-flow
+- res:corrupt-chunk-flags
+- res:corrupt-prev-size
+- res:corrupt-size-field
+- res:overwrite-chunk-header
+- res:program-crash
+- res:write-anything-anywhere
 ---
 # 堆溢出
 
