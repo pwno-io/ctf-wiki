@@ -1,3 +1,31 @@
+---
+title: V8 Design History
+url: /pwn/browser/chrome/js-engine/history
+tags:
+- ast-compilation
+- bytecode-generation
+- bytecode-interpretation-knowledge
+- compiler-architecture-knowledge
+- compiler-pipeline
+- compiler-pipeline-knowledge
+- crankshaft-compiler
+- deoptimization
+- full-code-generation
+- ignition-interpreter
+- interpreter
+- interpreter-vs-compiler
+- javascript-ast-understanding
+- javascript-engine
+- jit-compilation-concepts
+- jit-compiler
+- jit-optimization-understanding
+- optimization-pipeline-understanding
+- turbofan-optimizer
+- understand-v8-evolution
+- v8-architecture-comprehension
+- v8-engine
+- v8-version-history
+---
 # V8 Design History
 
 这一节给大家大概了解一下 V8 的发展历程，仅供大家进行扩展阅读。

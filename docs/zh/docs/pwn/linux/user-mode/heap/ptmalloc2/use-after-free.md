@@ -1,3 +1,22 @@
+---
+title: Use After Free
+url: /pwn/linux/user-mode/heap/ptmalloc2/use-after-free
+tags:
+- arbitrary-code-execution
+- arbitrary-function-call
+- control-flow-hijack
+- controlled-content-write
+- controlled-heap-allocation
+- dangling-pointer
+- double-free
+- function-pointer-hijack
+- function-pointer-overwrite
+- heap
+- heap-overflow
+- memory-corruption
+- no-null-after-free
+- use-after-free
+---
 # Use After Free
 
 ## 原理

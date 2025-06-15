@@ -1,3 +1,40 @@
+---
+title: 花式栈溢出技巧
+url: /pwn/linux/user-mode/stackoverflow/x86/fancy-rop
+tags:
+- <libc2.31
+- address-leak
+- arbitrary-code-execution
+- argv-manipulation
+- aslr-bypass
+- aslr-enabled
+- bss-segment
+- bypass-aslr
+- bypass-pie
+- canary-bypass
+- canary-leak
+- control-flow-hijack
+- frame-faking
+- gets-vulnerability
+- heap-control
+- libc-csu-gadget
+- no-null-termination
+- page-offset-exploitation
+- partial-write
+- pie-bypass
+- pie-enabled
+- return-address-control
+- rop
+- rsp-control
+- shell-execution
+- stack-address-leak
+- stack-control
+- stack-overflow
+- stack-pivoting
+- stack-smashing-protection
+- writable-memory
+- write-what-where
+---
 #  花式栈溢出技巧
 
 ## stack pivoting

@@ -1,3 +1,44 @@
+---
+title: Unsorted Bin Attack
+url: /pwn/linux/user-mode/heap/ptmalloc2/unsorted-bin-attack
+tags:
+- arbitrary-address-write
+- arbitrary-write
+- bk-pointer-control
+- bk-pointer-corruption
+- bypass-aslr
+- chunk-not-top-adjacent
+- chunk-size-control
+- chunk-unlinking
+- enable-fastbin-attack
+- fd-bk-pointers
+- fifo-traversal
+- glibc-heap
+- glibc-malloc
+- global-max-fast-overwrite
+- heap
+- heap-metadata-corruption
+- heap-overflow
+- information-disclosure
+- libc-base-leak
+- libc-leak
+- loop-counter-modification
+- main-arena-address-leak
+- main-arena-leak
+- malloc-consolidate
+- malloc-internal
+- malloc-trigger
+- non-fastbin-chunk
+- read-after-free
+- show-function
+- uaf
+- unsorted-bin
+- unsorted-bin-attack
+- unsorted-bin-chunk
+- unsorted-bin-leak
+- write-large-value
+- write-unsorted-bin-address
+---
 # Unsorted Bin Attack
 
 ## 概述

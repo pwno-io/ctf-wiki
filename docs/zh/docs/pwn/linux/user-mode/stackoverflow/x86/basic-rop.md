@@ -1,3 +1,50 @@
+---
+title: 基本 ROP
+url: /pwn/linux/user-mode/stackoverflow/x86/basic-rop
+tags:
+- arbitrary-code-execution
+- aslr-bypass
+- binsh-string
+- bss-executable
+- buffer-overflow
+- bypass-dep
+- bypass-nx
+- control-eax
+- control-ebx
+- control-ecx
+- control-edx
+- control-flow-hijacking
+- control-registers
+- control-return-address
+- control-rip
+- execve-syscall
+- gadget-addresses
+- gadget-chaining
+- gets-vulnerability
+- got-leak
+- int-0x80
+- libc-address-leak
+- libc-base-leak
+- no-canary
+- no-pie
+- nx-bypass
+- pop-gadgets
+- puts-plt
+- ret2libc
+- ret2shellcode
+- ret2syscall
+- ret2text
+- return-oriented-programming
+- rop
+- rwx-segment
+- shell-execution
+- stack-overflow
+- strcpy-vulnerability
+- syscall-gadgets
+- system-function-call
+- system-plt
+- system-shell
+---
 # 基本 ROP
 
 随着 NX (Non-eXecutable) 保护的开启，传统的直接向栈或者堆上直接注入代码的方式难以继续发挥效果，由此攻击者们也提出来相应的方法来绕过保护。

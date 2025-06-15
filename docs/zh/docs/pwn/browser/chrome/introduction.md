@@ -1,3 +1,40 @@
+---
+title: Chromium Introduction
+tags:
+- blink-rendering-engine
+- browser
+- browser-exploitation
+- browser-internals
+- browser-process
+- c++-knowledge
+- chromium
+- chromium-source
+- cross-process-communication-abuse
+- css-parsing
+- cssom-tree
+- dom-manipulation
+- dom-tree
+- html-parsing
+- introduction
+- ipc-understanding
+- javascript-engine-exploitation
+- javascript-engine-internals
+- javascript-parsing
+- mojo-ipc
+- mojo-ipc-framework
+- multi-process-architecture
+- multi-process-debugging
+- render-process
+- render-tree
+- renderer-process-compromise
+- rendering-pipeline-attacks
+- rendering-pipeline-understanding
+- sandbox-escape
+- v8-javascript-engine
+- web-standards-knowledge
+url: /docs/pwn/browser/chrome/introduction
+---
+
 # Chromium
 
 ## 概述
@@ -12,9 +49,9 @@
 
 ——但事实上浏览器并不是这么三言两语就能概括掉的东西，Chromium 本身是一个完整的浏览器项目，其渲染引擎是 [Blink](https://www.chromium.org/blink/)，这也是微软主要依赖于 Chromium 的东西（因为他自有的那套衍生自 IE 时代的 Trident 引擎的 EdgeHTML 引擎实在是差点意思），相对应的 Safari 的渲染引擎是 [开源的 WebKit](https://webkit.org/)、Firefox 的渲染引擎是 [开源的 Gecko](https://firefox-source-docs.mozilla.org/overview/gecko.html) ，但在此之外的 JavaScript 引擎微软使用的是自研的 [开源的 Chakra](https://github.com/chakra-core/ChakraCore) （ ~~啊我草二次元怎么这么多~~ ）而非 Chromium 的 [V8](https://v8.dev/) ，相应地 Safari 的 JS 引擎是自己的 [Nitro]() 、Firefox 的 JS 引擎是自研的 [开源的 SpiderMonkey](https://spidermonkey.dev/) ......
 
-> 这也是为什么当我们提到自研的浏览器时通常仅认为只有 4 个的缘故，其他的各自基于 chromium 套皮贴牌的所谓“自研”浏览器，一没自己的排版引擎二没自己的JS引擎三没自己的网络栈...总而言之硬核部分全都不是自研的，那这是否就有点
+> 这也是为什么当我们提到自研的浏览器时通常仅认为只有 4 个的缘故，其他的各自基于 chromium 套皮贴牌的所谓"自研"浏览器，一没自己的排版引擎二没自己的JS引擎三没自己的网络栈...总而言之硬核部分全都不是自研的，那这是否就有点
 
-那浏览器又是如何工作的？可能有的人会想“不就是拿到一个 HTML 文件解析一下然后在屏幕上画出来嘛”—— **仅** 放在渲染引擎上来说，似乎确实可以就这样概况？渲染引擎吃掉服务器发来的的 HTML、CSS、JS 文件等，进行解析后交给 GPU 在屏幕上画出来：
+那浏览器又是如何工作的？可能有的人会想"不就是拿到一个 HTML 文件解析一下然后在屏幕上画出来嘛"—— **仅** 放在渲染引擎上来说，似乎确实可以就这样概况？渲染引擎吃掉服务器发来的的 HTML、CSS、JS 文件等，进行解析后交给 GPU 在屏幕上画出来：
 
 ![](https://s2.loli.net/2025/03/08/6ObUMxFAh5Tkvw1.png)
 

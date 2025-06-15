@@ -1,3 +1,27 @@
+---
+title: House of Roman
+url: /pwn/linux/user-mode/heap/ptmalloc2/house-of-roman
+tags:
+- 12-bit-bruteforce
+- arbitrary-code-execution
+- arbitrary-size-allocation
+- aslr-bypass
+- combined-technique
+- dangling-pointer
+- fastbin-attack
+- heap
+- house-of-roman
+- malloc-hook-overwrite
+- nx-enabled
+- off-by-one
+- one-gadget-execution
+- partial-overwrite
+- partial-relro
+- pie-enabled
+- shell
+- unsorted-bin-attack
+- use-after-free
+---
 # House of Roman
 
 ## 介绍

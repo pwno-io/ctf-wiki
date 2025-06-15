@@ -1,3 +1,32 @@
+---
+title: FSOP
+url: /pwn/linux/user-mode/io-file/fsop
+tags:
+- arbitrary-code-execution
+- arbitrary-write
+- control-flow-hijacking
+- controlled-memory-allocation
+- fake-file-structure
+- fake-io-file-plus-structure
+- fake-vtable-construction
+- file-stream-oriented-programming
+- fsop
+- glibc-io-exploitation
+- io-file-exploitation
+- io-list-all-hijacking
+- io-list-all-overwrite
+- io-overflow-hijacking
+- io-overflow-redirection
+- io-write-base-control
+- io-write-ptr-control
+- libc-base-leak
+- mode-field-control
+- triggered-on-abort
+- triggered-on-exit
+- triggered-on-main-return
+- vtable-function-call
+- vtable-hijacking
+---
 # FSOP
 
 ## 介绍

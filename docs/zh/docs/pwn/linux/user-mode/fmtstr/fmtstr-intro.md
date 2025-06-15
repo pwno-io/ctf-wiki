@@ -1,3 +1,22 @@
+---
+title: 原理介绍
+url: /pwn/linux/user-mode/fmtstr/fmtstr-intro
+tags:
+- arbitrary-read
+- arbitrary-write
+- format-string
+- information-disclosure
+- memory-leak
+- no-format-string-validation
+- printf-family
+- printf-scanf-functions
+- program-crash
+- stack-access
+- stack-based
+- stack-content-leak
+- user-controlled-format-string
+- variadic-function
+---
 # 原理介绍
 
 首先，对格式化字符串漏洞的原理进行简单介绍。

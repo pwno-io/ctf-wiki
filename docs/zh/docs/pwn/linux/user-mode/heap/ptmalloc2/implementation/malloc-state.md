@@ -1,3 +1,26 @@
+---
+title: malloc_state 相关函数
+url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/malloc-state
+tags:
+- adjacent-chunk-merging
+- chunk-consolidation
+- chunk-header-format
+- chunk-merging
+- fastbin-consolidation
+- fastbin-initialization
+- fastbin-structure-knowledge
+- fastbin-to-unsorted-bin
+- glibc-heap-internals
+- glibc-source
+- heap-initialization
+- heap-management
+- heap-metadata-understanding
+- heap-state-modification
+- malloc-state
+- malloc-state-access
+- prev-inuse-bit-clearing
+- unsorted-bin-access
+---
 # malloc_state 相关函数
 
 ## malloc_init_state

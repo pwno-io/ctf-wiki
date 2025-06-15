@@ -1,3 +1,18 @@
+---
+title: 测试支持
+url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/misc
+tags:
+- debug-environment
+- glibc-malloc-testing
+- glibc-source-access
+- heap-corruption-testing
+- heap-debugging
+- memory-pattern-detection
+- memory-perturbation
+- perturb-byte
+- perturb-byte-control
+- use-after-free-detection
+---
 # 测试支持
 
 下面的代码用于支持测试，默认情况下 perturb_byte 是0。

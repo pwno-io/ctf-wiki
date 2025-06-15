@@ -1,3 +1,35 @@
+---
+title: Unlink
+url: /pwn/linux/user-mode/heap/ptmalloc2/unlink
+tags:
+- address-leak
+- allocation-size-control
+- arbitrary-write
+- chunk-consolidation
+- code-execution
+- controlled-free
+- double-free
+- double-linked-list
+- fake-chunk-construction
+- fd-bk-manipulation
+- fd-bk-pointer-control
+- got-overwrite
+- heap
+- heap-overflow
+- integer-overflow
+- integer-overflow-capability
+- libc-leak
+- negative-index
+- off-by-one
+- physical-adjacency
+- pointer-manipulation
+- safe-unlink
+- shell
+- size-field-manipulation
+- uaf
+- unlink
+- write-primitive
+---
 # Unlink
 
 ## 原理

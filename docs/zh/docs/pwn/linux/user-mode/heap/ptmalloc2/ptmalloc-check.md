@@ -1,3 +1,42 @@
+---
+title: 堆中的检查
+url: /pwn/linux/user-mode/heap/ptmalloc2/ptmalloc-check
+tags:
+- __int_free
+- __libc_free
+- _int_malloc
+- bypass-double-free-check
+- bypass-fastbin-index-check
+- bypass-fd-bk-check
+- bypass-nextsize-check
+- bypass-security-checks
+- bypass-size-checks
+- bypass-unlink-check
+- control-chunk-size
+- control-fd-bk-pointers
+- control-prev-size
+- corrupt-chunk-headers
+- double-free-detection
+- double-free-exploitation
+- exploit-fastbin
+- exploit-top-chunk
+- exploit-unlink
+- exploit-unsorted-bin
+- fastbin-checks
+- glibc-malloc-checks
+- heap-exploitation
+- heap-overflow
+- heap-security-checks
+- linked-list-integrity
+- memory-corruption-detection
+- pointer-validation
+- size-validation
+- top-chunk-checks
+- trigger-memory-corruption
+- unlink-checks
+- unsorted-bin-checks
+- use-after-free
+---
 # 堆中的检查
 
 ## _int_malloc

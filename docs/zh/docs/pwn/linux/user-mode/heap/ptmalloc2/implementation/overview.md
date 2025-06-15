@@ -1,3 +1,17 @@
+---
+title: 深入理解堆的实现
+url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/overview
+tags:
+- heap
+- heap-fundamentals
+- heap-implementation
+- heap-implementation-knowledge
+- heap-internals-knowledge
+- memory-allocation-concepts
+- memory-management
+- system-programming
+- understand-heap-operations
+---
 # 深入理解堆的实现
 
 仔细想一下，任何堆的实现都需要从以下两个角度考虑相应的问题

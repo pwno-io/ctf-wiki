@@ -1,3 +1,46 @@
+---
+title: ret2dlresolve
+url: /pwn/linux/user-mode/stackoverflow/x86/advanced-rop/ret2dlresolve
+tags:
+- _dl_runtime_resolve
+- arbitrary-code-execution
+- arbitrary-function-execution
+- buffer-overflow
+- bypass-aslr
+- bypass-got-protection
+- bypass-nx
+- command-execution
+- control-program-flow
+- controlled-relocation-offset
+- controlled-write-primitive
+- dynamic-linker-internals
+- dynamic-linking-exploitation
+- dynamic-string-table-manipulation
+- elf-dynamic-section
+- elf-structure-knowledge
+- execute-unresolved-functions
+- fake-linkmap
+- function-hijacking
+- libc-version-knowledge
+- no-relro
+- partial-relro
+- plt-got-exploitation
+- plt-got-knowledge
+- relocation-table-manipulation
+- ret2dlresolve
+- rop-chain
+- rop-gadgets
+- stack-alignment-x64
+- stack-overflow
+- stack-pivot
+- symbol-resolution-hijacking
+- symbol-visibility-control
+- system-shell
+- version-check-bypass
+- writable-memory-region
+- write-what-where
+- xmm-alignment-x64
+---
 # ret2dlresolve
 
 在学习这个 ROP 利用技巧前，需要首先理解动态链接的基本过程以及 ELF 文件中动态链接相关的结构。读者可以参考 executable 部分  ELF 对应的介绍。这里只给出相应的利用方式。

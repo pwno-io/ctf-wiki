@@ -1,3 +1,30 @@
+---
+title: House Of Force
+url: /pwn/linux/user-mode/heap/ptmalloc2/house-of-force
+tags:
+- <glibc2.24
+- arbitrary-address-write
+- arbitrary-malloc-size
+- arbitrary-write
+- code-execution
+- control-flow-hijack
+- glibc-malloc
+- got-overwrite
+- heap-exploitation
+- heap-overflow
+- house-of-force
+- malloc-hook-overwrite
+- malloc-maleficarum
+- malloc-size-control
+- negative-size-bypass
+- request-out-of-range-check
+- top-chunk-manipulation
+- top-chunk-relocation
+- top-chunk-size-control
+- unsigned-comparison
+- write-anything-anywhere
+- write-what-where
+---
 # House Of Force
 
 ## 介绍

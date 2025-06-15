@@ -1,3 +1,28 @@
+---
+title: FILE结构
+url: /pwn/linux/user-mode/io-file/introduction
+tags:
+- <libc2.23
+- arbitrary-code-execution
+- arbitrary-read
+- arbitrary-write
+- control-flow-hijack
+- file-stream-exploitation
+- file-stream-manipulation
+- file-structure
+- file-structure-access
+- function-pointer-overwrite
+- heap-based-file-stream
+- heap-overflow
+- io-file-plus
+- io-list-all-access
+- libio
+- stdio
+- use-after-free
+- vtable-function-call
+- vtable-hijacking
+- vtable-pointer-control
+---
 # FILE结构
 
 

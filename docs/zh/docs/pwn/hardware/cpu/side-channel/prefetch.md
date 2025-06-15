@@ -1,3 +1,34 @@
+---
+title: prefetch side-channel attack
+url: /pwn/hardware/cpu/side-channel/prefetch
+tags:
+- address-translation-oracle
+- arm-prfm
+- armv8-a-cpu
+- cache-flush-capability
+- cache-timing
+- cpu-cache
+- intel-cpu
+- intel-prefetch
+- kaslr-bypass
+- kernel-address-leak
+- kernel-linear-mapping
+- kernel-memory-disclosure
+- kpti-bypass
+- page-offset-base-leak
+- physical-address-mapping
+- physical-memory-access
+- prefetch-attack
+- prefetch-instruction-access
+- side-channel
+- smap-bypass
+- speculative-execution
+- syscall-address-leak
+- timing-attack
+- timing-measurement
+- translation-oracle
+- user-space-execution
+---
 # prefetch side-channel attack
 
 Prefetch 侧信道攻击（Prefetch Side-channel Attacks）是由 [Daniel Gruss](https://gruss.cc/) 于论文 _[Prefetch Side-Channel Attacks: Bypassing SMAP and Kernel ASLR](https://gruss.cc/files/prefetch.pdf)_ 中提出来的一种辅助攻击手法，该攻击方法利用了 Intel CPU 中 `prefetch` 系指令的硬件设计上的弱点，通过对比在不同虚拟地址上执行 `prefetch` 指令的时间差以泄露内存相关信息，并绕过 KASLR 等保护。

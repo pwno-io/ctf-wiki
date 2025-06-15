@@ -1,3 +1,29 @@
+---
+title: 栈溢出原理
+url: /pwn/linux/user-mode/stackoverflow/x86/stackoverflow-basic
+tags:
+- arbitrary-code-execution
+- aslr-disabled
+- bss-overwrite
+- buffer-overflow
+- control-flow-hijack
+- dangerous-functions
+- executable-memory-region
+- gets-function
+- no-pie
+- no-stack-canary
+- program-crash
+- return-address-control
+- return-address-overwrite
+- scanf-function
+- sprintf-function
+- stack-based
+- stack-overflow
+- stack-write-capability
+- strcpy-function
+- uncontrolled-input-size
+- variable-overwrite
+---
 # 栈溢出原理
 
 ## 介绍

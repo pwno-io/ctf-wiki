@@ -1,3 +1,33 @@
+---
+title: Arm ROP
+url: /pwn/linux/user-mode/stackoverflow/arm/rop
+tags:
+- aarch64-architecture
+- aarch64-exploitation
+- arbitrary-code-execution
+- arm-architecture
+- arm-exploitation
+- arm-rop
+- arm-shellcode
+- bypass-nx
+- control-pc-register
+- control-r0-r3-registers
+- control-return-address
+- control-x0-x2-registers
+- execute-shellcode
+- gadget-availability
+- mprotect-bypass
+- mprotect-function
+- mprotect-memory-permissions
+- no-canary
+- nx-enabled
+- ret2csu
+- shell-execution
+- stack-buffer-overflow
+- stack-overflow
+- static-linked-binary
+- system-call
+---
 # Arm ROP
 
 ## 介绍

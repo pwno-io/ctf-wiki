@@ -1,3 +1,32 @@
+---
+title: House of Pig
+url: /pwn/linux/user-mode/heap/ptmalloc2/house-of-pig
+tags:
+- '>=libc2.31'
+- abort-flow
+- arbitrary-write
+- calloc-only
+- code-execution
+- control-flow-hijack
+- exit-call
+- fake-io-file
+- free-hook-overwrite
+- fsop
+- heap
+- heap-overflow
+- house-of-pig
+- io-file-exploitation
+- io-list-all-overwrite
+- io-str-overflow
+- large-bin-attack
+- large-bin-size
+- main-return
+- shell
+- tcache-control
+- tcache-stash-unlink-attack
+- use-after-free
+- write-primitive
+---
 # House of Pig
 
 ## 介绍

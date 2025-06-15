@@ -1,3 +1,38 @@
+---
+title: 通过堆进行信息泄漏
+url: /pwn/linux/user-mode/heap/ptmalloc2/leak-heap
+tags:
+- address-disclosure
+- address-leak
+- aslr-bypass
+- chunk-address
+- chunk-bk-pointer
+- chunk-fd-pointer
+- fastbin
+- free-control
+- freed-chunk-access
+- heap
+- heap-base-address
+- heap-base-leak
+- heap-extend
+- heap-overflow
+- information-leak
+- libc-base-address
+- libc-leak
+- main-arena
+- main-arena-address
+- malloc-control
+- memory-disclosure
+- out-of-bounds-read
+- overlapping-chunks
+- partial-overwrite
+- pie-bypass
+- relative-write
+- smallbin
+- uninitialized-heap-memory
+- unsorted-bin
+- use-after-free
+---
 # 通过堆进行信息泄漏
 
 ## 什么叫信息泄漏

@@ -1,3 +1,37 @@
+---
+title: 释放内存块
+url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/free
+tags:
+- aligned-chunk
+- arena-boundaries
+- backward-consolidation
+- chunk-consolidation
+- chunk-header-access
+- chunk-insertion-fastbin
+- chunk-inuse-bit
+- double-free-protection
+- fast-bin
+- fastbin-size-range
+- forward-consolidation
+- glibc-free
+- heap
+- heap-layout-knowledge
+- heap-trimming
+- memory-deallocation
+- memory-return-to-system
+- minimum-chunk-size
+- mmap-chunk
+- munmap-execution
+- non-top-chunk
+- top-chunk
+- top-chunk-expansion
+- unlink
+- unlink-execution
+- unsorted-bin
+- unsorted-bin-insertion
+- valid-next-chunk-size
+- valid-pointer
+---
 # 释放内存块
 
 ## __libc_free

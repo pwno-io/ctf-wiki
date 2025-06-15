@@ -1,3 +1,37 @@
+---
+title: 获取地址
+url: /pwn/linux/user-mode/summary/get-address
+tags:
+- 32-bit-architecture
+- address-acquisition
+- address-bruteforce
+- address-leak
+- arbitrary-function-call
+- arbitrary-read
+- aslr-bypass
+- controlled-output
+- dynelf
+- function-address
+- got-access
+- got-address
+- got-overwrite
+- heap-addressing
+- heap-base-address
+- heap-leak
+- information-disclosure
+- libc-base-address
+- libc-database
+- libc-leak
+- no-pie
+- partial-write
+- proc-filesystem-access
+- proc-self-maps
+- ret2dl-resolve
+- stack-address
+- stack-addressing
+- stack-overflow
+- symbol-resolution
+---
 # 获取地址
 
 在漏洞利用的过程中，我们常常需要获取一些变量，函数的地址，以便于能够进行进一步的利用。这里我将获取地址的方法分为如下几类

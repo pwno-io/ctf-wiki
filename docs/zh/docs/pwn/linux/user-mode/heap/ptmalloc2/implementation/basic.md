@@ -1,3 +1,30 @@
+---
+title: 基础操作
+url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/basic
+tags:
+- <glibc2.23
+- abort-mechanism
+- arbitrary-write
+- bypass-fd-bk-checks
+- bypass-size-checks
+- chunk-fd-bk-control
+- chunk-management
+- double-linked-list
+- double-linked-list-corruption
+- double-linked-list-manipulation
+- error-handling
+- fflush-on-abort
+- heap
+- heap-address-leak
+- heap-metadata-corruption
+- large-bin-nextsize-control
+- libc-address-leak
+- malloc-printerr
+- stream-fflush
+- trigger-abort
+- unlink
+- unlink-attack
+---
 # 基础操作
 
 ## unlink

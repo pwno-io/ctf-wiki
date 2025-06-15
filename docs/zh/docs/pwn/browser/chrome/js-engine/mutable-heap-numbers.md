@@ -1,3 +1,28 @@
+---
+title: Mutable Heap Numbers
+url: /pwn/browser/chrome/js-engine/mutable-heap-numbers
+tags:
+- elimination-heap-allocation
+- faster-arithmetic-operations
+- heap-number-allocation
+- heap-number-manipulation
+- in-place-updates
+- int32-range-values
+- integer-operation-optimization
+- memory-optimization
+- mutable-heap-numbers
+- performance-improvement
+- performance-optimization
+- reduced-memory-overhead
+- script-context
+- script-context-access
+- slot-type-tracking
+- stable-variable-types
+- type-stability
+- type-tracking-capability
+- v8-engine
+- v8-optimization
+---
 # Mutable Heap Numbers
 
 **堆数量不可变** 机制是 2025 年 V8 团队公开的优化机制，其思路来源于于 `async-fs` 这一 JS 文件系统实现在 `Math.random` 上的运行瓶颈，例如对于下面的这样一段代码：

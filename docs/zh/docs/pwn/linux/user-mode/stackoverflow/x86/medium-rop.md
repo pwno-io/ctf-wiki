@@ -1,3 +1,44 @@
+---
+title: 中级ROP
+url: /pwn/linux/user-mode/stackoverflow/x86/medium-rop
+tags:
+- arbitrary-function-call
+- blind-rop
+- brop
+- bypass-aslr
+- bypass-canary
+- bypass-nx
+- control-6-registers
+- control-allocation-size
+- control-first-3-args
+- control-rdi-rsi-rdx
+- cop
+- dump-binary
+- gadget-chaining
+- jop
+- leak-canary
+- leak-libc-addresses
+- libc-csu-init
+- libc-csu-init-present
+- no-aslr-restart
+- nx-enabled
+- partial-relro
+- plt-structure
+- readable-addresses
+- register-control
+- remote-code-execution
+- ret2csu
+- ret2reg
+- rop
+- server-crash-recovery
+- shell-execution
+- stack-overflow
+- stack-reading
+- writable-bss
+- write-what-where
+- x64-binary
+- x64-gadgets
+---
 # 中级ROP
 
 中级 ROP 主要是使用了一些比较巧妙的 Gadgets。

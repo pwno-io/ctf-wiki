@@ -1,3 +1,23 @@
+---
+title: TurboFan JIT Compiler
+url: /pwn/browser/chrome/js-engine/turbofan
+tags:
+- architecture-specific-code
+- bytecode-compilation
+- bytecode-input
+- hot-code-detection
+- ignition-interpreter
+- javascript-optimization
+- jit-compiled-output
+- jit-compiler
+- machine-code-generation
+- optimized-machine-code
+- performance-improvement
+- repeated-execution-trigger
+- turbofan
+- v8-engine
+- v8-javascript-engine
+---
 # TurboFan JIT Compiler
 
 对于全量代码编译的场景，大部分代码可能就执行一到两次，那么这个这个时候使用解释执行的方式去运行 JavaScript 代码的效率是比传统的 JIT 编译运行是要高的，但当一段代码需要被反复多次执行时，使用 JIT 编译的方式去运行的整体销量就比解释执行要高了——由此我们编有 V8 的 JIT compiler：[TurboFan Compiler](https://v8.dev/docs/turbofan) ，当一段代码被反复执行多次、或是手动指定要编译时，Ignition 便会将 bytecode 传递给 TurboFan，由其进行 JIT 编译生成对应架构的机器码

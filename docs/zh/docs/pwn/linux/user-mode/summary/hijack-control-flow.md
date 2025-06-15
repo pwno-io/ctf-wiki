@@ -1,3 +1,31 @@
+---
+title: 控制程序执行流
+url: /pwn/linux/user-mode/summary/hijack-control-flow
+tags:
+- arbitrary-code-execution
+- arbitrary-write
+- command-execution
+- control-flow-hijack
+- control-flow-hijacking
+- eip-control
+- execution-flow-control
+- free-hook-writable
+- function-pointer-hijacking
+- handler-manipulation
+- heap-overflow
+- hook-overwrite
+- io-file-structure-access
+- jump-pointer-manipulation
+- malloc-hook-writable
+- memory-corruption
+- return-address-overwrite
+- rip-control
+- rop-chain-execution
+- shellcode-execution
+- stack-overflow
+- vtable-hijacking
+- write-primitive
+---
 # 控制程序执行流
 
 在控制程序执行流的过程中，我们可以考虑如下方式。

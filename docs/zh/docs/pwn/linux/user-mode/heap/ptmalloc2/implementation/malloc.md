@@ -1,3 +1,54 @@
+---
+title: 申请内存块
+url: /pwn/linux/user-mode/heap/ptmalloc2/implementation/malloc
+tags:
+- __after_morecore_hook
+- __libc_malloc
+- __malloc_hook
+- _int_malloc
+- allocation-size-control
+- arbitrary-allocation
+- arena-manipulation
+- binmap-understanding
+- chunk-metadata-understanding
+- chunk-overlap
+- chunk-size-control
+- chunk-splitting
+- controlled-chunk-placement
+- fastbin
+- fastbin-exploitation
+- fastbin-size-request
+- glibc-malloc
+- heap
+- heap-consolidation
+- heap-extension
+- heap-layout-knowledge
+- heap-layout-manipulation
+- hook-execution
+- large-bin-attack
+- largebin
+- largebin-size-request
+- last-remainder
+- malloc-hook-control
+- malloc-hooks
+- malloc-internals
+- memory-allocation
+- metadata-corruption-exploitation
+- mmap-allocation
+- mmap-region-allocation
+- mmap-threshold-bypass
+- remainder-control
+- sbrk
+- smallbin
+- smallbin-size-request
+- sysmalloc
+- top-chunk
+- top-chunk-exhaustion
+- top-chunk-extension
+- unsorted-bin
+- unsorted-bin-attack
+- unsorted-bin-manipulation
+---
 # 申请内存块
 
 ## __libc_malloc

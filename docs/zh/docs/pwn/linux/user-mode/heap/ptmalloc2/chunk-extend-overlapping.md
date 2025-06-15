@@ -1,3 +1,38 @@
+---
+title: Chunk Extend and Overlapping
+url: /pwn/linux/user-mode/heap/ptmalloc2/chunk-extend-overlapping
+tags:
+- adjacent-chunk-control
+- adjacent-chunk-layout
+- arbitrary-write
+- backward-overlap
+- chunk-extend
+- chunk-header-control
+- chunk-overlapping
+- chunk-shrink
+- command-execution
+- control-flow-hijack
+- controlled-allocation-size
+- fastbin
+- fastbin-attack
+- forward-overlap
+- got-overwrite
+- heap
+- heap-based-vulnerability
+- heap-metadata-corruption
+- heap-overflow
+- information-leak
+- libc-address-leak
+- off-by-one
+- prev-inuse-bit-control
+- prev-size-manipulation
+- ptmalloc
+- size-field-manipulation
+- smallbin
+- unlink
+- unsorted-bin
+- use-after-free
+---
 # Chunk Extend and Overlapping
 
 ## 介绍

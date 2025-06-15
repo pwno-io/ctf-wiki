@@ -1,3 +1,27 @@
+---
+title: 整数溢出
+url: /pwn/linux/user-mode/integeroverflow/introduction
+tags:
+- arbitrary-length-read
+- arithmetic-operations
+- boundary-overflow
+- buffer-overflow
+- bypass-length-check
+- heap-overflow
+- integer-overflow
+- integer-truncation
+- malloc-size-control
+- memory-corruption
+- negative-to-large-positive
+- read-length-control
+- signed-integer
+- signed-unsigned-mismatch
+- type-casting
+- type-confusion
+- type-conversion
+- unsigned-integer
+- user-controlled-input
+---
 # 整数溢出
 
 ## 介绍

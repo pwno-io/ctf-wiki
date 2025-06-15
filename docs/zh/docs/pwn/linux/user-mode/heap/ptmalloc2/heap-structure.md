@@ -1,3 +1,51 @@
+---
+title: 堆相关数据结构
+url: /pwn/linux/user-mode/heap/ptmalloc2/heap-structure
+tags:
+- arena
+- arena-allocation
+- arena-exploitation
+- bin-exploitation-knowledge
+- bin-organization
+- chunk-coalescing-prevention
+- chunk-consolidation
+- chunk-header
+- chunk-manipulation
+- chunk-size-calculation
+- chunk-structure-knowledge
+- fast-bin
+- fastbin-consolidation-threshold
+- fastbin-exploitation
+- glibc-heap
+- heap
+- heap-data-structures
+- heap-exploitation-foundation
+- heap-info
+- heap-layout-control
+- heap-management
+- heap-overflow-preparation
+- heap-segmentation
+- is-mmapped-bit
+- large-bin
+- last-remainder
+- malloc-alignment
+- malloc-chunk
+- malloc-state
+- memory-allocation
+- metadata-understanding
+- multi-threading
+- non-main-arena-bit
+- prev-inuse-bit
+- ptmalloc
+- size-alignment
+- small-bin
+- top-chunk
+- top-chunk-exploitation
+- understanding-malloc-internals
+- unsorted-bin
+- unsorted-bin-exploitation
+- use-after-free-preparation
+---
 # 堆相关数据结构
 
 堆的操作就这么复杂，那么在 glibc 内部必然也有精心设计的数据结构来管理它。与堆相应的数据结构主要分为

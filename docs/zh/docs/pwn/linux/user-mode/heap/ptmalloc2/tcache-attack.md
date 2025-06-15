@@ -1,3 +1,44 @@
+---
+title: define TCACHE_FILL_COUNT 7
+url: /pwn/linux/user-mode/heap/ptmalloc2/tcache-attack
+tags:
+- <libc2.26
+- <libc2.27
+- <libc2.29
+- arbitrary-allocation
+- arbitrary-write
+- calloc-allocation
+- chunk-size-control
+- code-execution
+- double-free
+- fake-chunk-allocation
+- fd-pointer-control
+- free-hook-hijack
+- glibc-2.26
+- glibc-2.27
+- glibc-2.29
+- heap
+- heap-leak
+- heap-overflow
+- libc-leak
+- malloc-hook-hijack
+- null-byte-overflow
+- overlapping-chunks
+- rop-chain-execution
+- smallbin-bk-control
+- stdout-leak
+- tcache
+- tcache-count-control
+- tcache-dup
+- tcache-entry-manipulation
+- tcache-house-of-spirit
+- tcache-perthread-corruption
+- tcache-poisoning
+- tcache-stashing-unlink
+- unsorted-bin-control
+- use-after-free
+- write-what-where
+---
 
 ## tcache makes heap exploitation easy again
 

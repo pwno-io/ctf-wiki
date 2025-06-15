@@ -1,3 +1,21 @@
+---
+title: House of Rabbit
+url: /pwn/linux/user-mode/heap/ptmalloc2/house-of-rabbit
+tags:
+- arbitrary-chunk-creation
+- fake-chunk
+- fake-chunk-allocation
+- fastbin-attack
+- fastbin-fd-pointer-control
+- fastbin-size-field-control
+- heap
+- heap-overlap
+- heap-write
+- house-of-rabbit
+- malloc-consolidate
+- malloc-consolidate-trigger
+- overlap-chunk
+---
 # House of Rabbit
 
 ## 介绍

@@ -1,3 +1,31 @@
+---
+title: ret2VDSO
+url: /pwn/linux/user-mode/stackoverflow/x86/advanced-rop/ret2vdso
+tags:
+- bypass-aslr
+- code-execution
+- control-execution-flow
+- fast-syscall
+- fast-syscall-invocation
+- function-prolog-setup
+- kernel-2.6-or-higher
+- kernel-interface-access
+- kernel-userspace-mapping
+- linux-gate.so.1
+- linux-vdso.so.1
+- register-control
+- ret2vdso
+- stack-pivot-gadget
+- syscall
+- syscall-execution
+- sysenter
+- sysexit
+- sysret
+- vdso
+- vdso-mapped
+- virtual-dynamically-linked-shared-object
+- vsyscall-interface
+---
 # ret2VDSO
 
 ## VDSO介绍

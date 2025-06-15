@@ -1,3 +1,33 @@
+---
+title: shell 获取小结
+url: /pwn/linux/user-mode/summary/get-shell
+tags:
+- alphanumeric-shellcode
+- arbitrary-command-execution
+- bin-sh-string
+- bind-shell
+- command-execution
+- execve-execution
+- execve-syscall-number
+- ia32-syscall-11
+- interactive-shell
+- libc-base
+- mprotect-function
+- one-gadget
+- printable-shellcode
+- remote-shell
+- remote-shell-binding
+- shell-acquisition
+- shell-execution
+- shellcode-execution
+- syscall-exploitation
+- syscall-instruction
+- system-address
+- system-execution
+- system-shell
+- writable-executable-memory
+- x64-syscall-59
+---
 # shell 获取小结
 
 ## overview

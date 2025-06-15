@@ -1,3 +1,35 @@
+---
+title: mips - ROP
+url: /pwn/linux/user-mode/stackoverflow/mips/rop
+tags:
+- arbitrary-code-execution
+- buffer-overflow
+- bypass-cache-incoherency
+- cache-incoherency
+- control-pc
+- control-program-flow
+- control-ra-register
+- control-registers-s0-s6
+- control-return-address
+- executable-stack
+- gadget-chaining
+- libc-base-leak
+- mips
+- mips32
+- mips32-architecture
+- mipsrop-plugin
+- no-stack-protector
+- qemu-user
+- ret2shellcode
+- ret2text
+- return-oriented-programming
+- rop
+- shellcode-execution
+- sleep-function-flush-cache
+- spawn-shell
+- stack-overflow
+- strcpy-overflow
+---
 # mips - ROP
 ## 介绍
 本章目前只打算介绍 mips 下的 rop，其他漏洞的利用以后会逐渐介绍

@@ -1,3 +1,47 @@
+---
+title: 堆中的 Off-By-One
+url: /pwn/linux/user-mode/heap/ptmalloc2/off-by-one
+tags:
+- <libc2.28
+- allocation-size-control
+- arbitrary-read
+- arbitrary-write
+- boundary-validation-error
+- chunk-overlap
+- chunk-overlapping
+- chunk-size-0x100
+- code-execution
+- fastbin-attack
+- fd-nextsize-bk-nextsize-control
+- fence-error
+- free-chunk-adjacent
+- free-hook-hijack
+- got-hijack
+- heap
+- heap-layout-control
+- heap-leak
+- heap-overflow
+- house-of
+- large-bin-chunk
+- libc-leak
+- malloc-usable-size
+- mmap-allocation
+- null-byte-overflow
+- null-byte-write
+- off-by-one
+- prev-in-use-bit-manipulation
+- prev-size-control
+- prev-size-manipulation
+- realloc
+- single-byte-overflow
+- single-byte-write
+- string-operation-vulnerability
+- tcache-poisoning
+- unlink
+- unlink-attack
+- unsortedbin-smallbin-chunk
+- use-after-free
+---
 # 堆中的 Off-By-One
 
 ## 介绍

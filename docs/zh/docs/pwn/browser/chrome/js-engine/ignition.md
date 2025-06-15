@@ -1,3 +1,24 @@
+---
+title: Ignition Interpreter
+url: /pwn/browser/chrome/js-engine/ignition
+tags:
+- ast-to-bytecode
+- bytecode-execution
+- bytecode-generation
+- bytecode-interpretation
+- dead-code-elimination
+- faster-translation
+- ignition-interpreter
+- javascript-interpreter
+- javascript-runtime
+- memory-optimization
+- parser-ast
+- register-machine
+- register-optimization
+- script-streamer-thread
+- simplified-compilation
+- v8-engine
+---
 # Ignition Interpreter
 
 [Ignition Interpreter](https://v8.dev/blog/ignition-interpreter) 是 V8 当中的 JS 解释器，其将 Parser 前端生成的抽象语法树首先翻译为字节码，之后再解释执行字节码，工作管线如下图所示：

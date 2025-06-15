@@ -1,3 +1,38 @@
+---
+title: 例子
+url: /pwn/linux/user-mode/fmtstr/fmtstr-example
+tags:
+- 64-bit
+- arbitrary-read
+- arbitrary-write
+- binary-leak
+- blind-exploitation
+- canary-bypass
+- control-format-string
+- flag-leak
+- fmtstr-on-heap
+- format-string
+- format-string-vulnerability
+- got-hijacking
+- got-overwrite
+- heap-control
+- heap-fmtstr
+- info-leak
+- libc-database
+- libc-leak
+- no-full-relro
+- no-pie
+- parameter-offset
+- partial-relro
+- rce
+- read-null-bytes
+- return-address-control
+- return-address-hijacking
+- stack-control
+- stack-pivot-to-heap
+- stack-pivoting
+- system-shell
+---
 # 例子
 
 下面会介绍一些 CTF 中的格式化漏洞的题目。也都是格式化字符串常见的利用。

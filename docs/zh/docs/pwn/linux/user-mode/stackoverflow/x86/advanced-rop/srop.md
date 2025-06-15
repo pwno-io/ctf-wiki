@@ -1,3 +1,30 @@
+---
+title: SROP
+url: /pwn/linux/user-mode/stackoverflow/x86/advanced-rop/srop
+tags:
+- <linux3.3-x86-64
+- address-knowledge
+- arbitrary-syscall
+- binsh-address
+- context-hijacking
+- context-restoration-abuse
+- execve-shell
+- rax-control
+- read-function
+- register-control
+- rip-control
+- signal-frame-manipulation
+- signal-frame-space
+- sigreturn-oriented-programming
+- sigreturn-syscall
+- srop
+- stack-control
+- stack-overflow
+- syscall-chain
+- syscall-chaining
+- syscall-gadget
+- unix-signal-mechanism
+---
 # SROP
 
 ## 基本介绍
